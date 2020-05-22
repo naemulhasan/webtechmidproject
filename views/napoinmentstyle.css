@@ -1,0 +1,37 @@
+body{
+
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: sans-serif;
+ 	background: url(time2.jpeg);
+ 	background-size: cover;
+ }
+  .box{
+
+    width: 550px;
+    padding: 80px;
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);
+ 	background: inherit;
+ 	border-radius: 34x;
+ 	box-sizing: border-box;
+ 	box-shadow: 0 15px 25px rgb(0,0,0,5);
+
+ 	text-align: center;
+ }
+.box input[type="Date"]{
+ 	border: 0;
+ 	background: black;
+ 	display: block;
+ 	margin: 20px auto;
+ 	text-align: center;
+ 	border: 2px solid #3498db;
+ 	padding: 14px 10px;
+ 	width 200px;
+ 	outline: none;
+ 	color: white;
+ 	border-radius: 24px;
+ 	transition: 0.25s;
+ }

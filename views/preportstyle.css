@@ -1,0 +1,23 @@
+body{
+
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: sans-serif;
+ 	background: url(pimage.jpg);
+ 	background-size: cover;
+ }
+  .box {
+
+    width: 800px;
+    padding: 100px;
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);
+ 	background: inherit;
+ 	border-radius: 34x;
+ 	box-sizing: border-box;
+ 	box-shadow: 0 15px 25px rgb(0,0,0,5);
+    text-align: center;
+ }
+ 
